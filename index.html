@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/myStyle.css">
+  </head>
+
+  <body>
+      <main class="container">
+
+        <div class="content-wrapper">
+          <header>
+            <img class="logo" src="assets/images/logo.svg" alt="" aria-hidden="true">
+            
+            <div class="menu-bar">
+              <div class="btn">
+                <button class="hamburger-btn">
+                  <img  src="assets/images/icon-menu.svg" alt="" aria-hidden="true">
+                </button>
+                <button class="close-btn">
+                  <img src="assets/images/icon-menu-close.svg" alt="" aria-hidden="true">
+                </button>
+              </div>
+
+              <nav class="menu-content">
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#new">New</a></li>
+                  <li><a href="#popular">Popular</a></li>
+                  <li><a href="#trending">Trending</a></li>
+                  <li><a href="#categories">Categories</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          <div class="main-content">
+            <picture>
+              <source media="(min-width: 48rem)" srcset="assets/images/image-web-3-desktop.jpg">
+              <img src="assets/images/image-web-3-mobile.jpg" alt="Photo of shapes and color wooden blocks">
+            </picture>
+            <h1 class="title">The Bright Future of Web 3.0?</h1>
+            <p class="title-description">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+              But is it really fulfilling its promise?
+            </p>
+            <button class="btn-read-more">Read more</button>
+          </div>
+
+          <article class="latest-news-wrapper">
+            <h2 class="latest-news-heading">New</h2>
+
+            <div class="latest-news-box news-1">
+              <h3 class="headline">
+                <a href="#">Hydrogen VS Electric Cars</a>
+              </h3>
+              <p class="lead">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <div class="latest-news-box news-2">
+              <h3 class="headline">
+                <a href="#">The Downsides of AI Artistry</a>
+              </h3>
+              <p class="lead">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+
+            <div class="latest-news-box news-3">
+              <h3 class="headline">
+                <a href="#">Is VC Funding Drying Up?</a>
+              </h3>
+              <p class="lead">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+          </article>
+
+          <footer class="tech-news-wrapper">
+            <article class="tech-news-box">
+              <img src="assets/images/image-retro-pcs.jpg" alt="Photo of retro computer">
+              <div class="tech-news-content">
+                <p>01</p>
+                <h2>
+                  <a href="">Reviving Retro PCs</a>
+                </h2>
+                <p>What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </article>
+
+            <article class="tech-news-box">
+              <img src="assets/images/image-top-laptops.jpg" alt="Photo of black keyboard">
+              <div class="tech-news-content">
+                <p>02</p>
+                <h2>
+                  <a href="">Top 10 Laptops of 2022</a>
+                </h2>
+                <p>Our best picks for various needs and budgets.</p>
+              </div>
+            </article>
+
+            <article class="tech-news-box">
+              <img src="assets/images/image-gaming-growth.jpg" alt="Photo of game controller being thrown into the air">
+              <div class="tech-news-content">
+                <p>03</p>
+                <h2>
+                  <a href="">The Growth of Gaming</a>
+                </h2>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </article>
+          </footer>
+        </div>  <!--close content-wrapper--> 
+      
+      </main>  <!--close container-->
+    <script src="js/menu-bar.js"></script>
+  </body>
+</html>
